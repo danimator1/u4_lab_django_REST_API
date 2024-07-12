@@ -1,0 +1,5 @@
+-- settings.sql
+CREATE DATABASE mlbr;
+CREATE USER mlbruser WITH PASSWORD 'mlbr';
+GRANT ALL PRIVILEGES ON DATABASE mlbr TO mlbruser;
+ALTER DATABASE mlbr OWNER TO mlbruser;
